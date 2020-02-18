@@ -1,4 +1,4 @@
-function revesestring(str){
+function reversestring(str){
     let i = str.length-1;
     let revstr = "";
     while(i>=0){
@@ -7,10 +7,10 @@ function revesestring(str){
     }
     return revstr;
 }
- let result = revesestring("praveen");
+ let result = reversestring("praveen");
  console.log(result);  
 
- function revese(str2){
+ function reverse(str2){
      let revstr2 = "";
      for(let i=str2.length-1; i>=0; i--)
      {
@@ -18,5 +18,5 @@ function revesestring(str){
      }
      return revstr2;
  }
- let result2 = revese("praveen");
+ let result2 = revrese("praveen");
  console.log(result2);
