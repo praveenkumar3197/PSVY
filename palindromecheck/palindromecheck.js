@@ -1,6 +1,6 @@
 function palindrome(str){
     let rstr = "";
-    let reg = /[\W_]/g;
+    let reg = /[\W_]/g; // non alphanumeric characters
     let str2 = str.toLowerCase().replace(reg,"");
  for(let i = str2.length-1; i>=0; i--)
  {
